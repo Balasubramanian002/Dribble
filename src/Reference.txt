@@ -1,0 +1,31 @@
+
+
+div className="xl:flex xl:justify-around xl:items-center  xl:my-2 font-sans italic max-sm:flex-row max-sm:m-2 max-sm:text-center max-sm:leading-16">
+            <div className="text-red-600 text-bold max-sm:flex max-sm:justify-between max-sm:align-middle max-sm:text-center" >
+                <h2 className="text-4xl font-extrabold text-black max-sm:text-center" >Dribble</h2>
+               <button className="lg:hidden"><FontAwesomeIcon className="max-sm:text-4xl" icon={faBars}></FontAwesomeIcon></button> 
+                </div>
+                <div className="hidden md:w-xl md:rounded-4xl md:flex justify-between p-1.5 bg-gray-200 max-sm:w-full">
+                    <input className="hidden md:outline-none md:font-bold max-sm:text-center" placeholder="what are you looking for?" ></input>
+                    <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: '#ffffff', backgroundColor:"magenta",borderRadius:"25px",padding:"10px" }} />
+                </div>
+                <div className="max-sm:hidden max-sm:flex max-sm:justify-center gap-8">
+                    <ul className="flex gap-7 sm:hidden">
+                        <li>Designer</li>
+                         <li>Home</li>
+                         <li>Service</li>
+                         <li>about us</li>
+                    </ul>
+                </div>
+                <div className="space-x-6 ">
+                    <button className="text-1xl">Signin</button>
+                    <button className="bg-black text-white border-2xl rounded-3xl p-1.5 max-sm:p-0 max-sm:my-2 max-sm:border-none max-sm:bg-white max-sm:text-black">Signup</button>
+                </div>
+
+        </div>
+
+
+
+
+
+
